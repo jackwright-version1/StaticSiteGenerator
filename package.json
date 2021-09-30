@@ -14,9 +14,7 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "husky": {
-    "hooks": {
-
-    }
+    "hooks": {}
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.6",
@@ -31,7 +29,8 @@
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "url-loader": "^4.1.1"
+    "url-loader": "^4.1.1",
+    "yarn": "^1.22.15"
   },
   "browserslist": {
     "production": [
