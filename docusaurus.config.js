@@ -1,11 +1,31 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+console.log("App Started!");
+
+const axios = require('axios');
+
+const { exec } = require("child_process");
+
+exec('"./docs/script.sh"', (error, stdout, stderr) => {
+    if (error) {
+        console.log(`error: ${error.message}`);
+        return;
+    }
+    if (stderr) {
+        console.log(`stderr: ${stderr}`);
+        return;
+    }
+    console.log(`stdout: ${stdout}`);
+});
+
+
+
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'DAPx Documentation',
+  tagline: 'Static Site Generation POC',
   url: 'https://jackwright-version1.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -23,7 +43,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/jackwright-version1/SSGTest',
         },
         blog: {
           showReadingTime: true,
@@ -38,11 +58,22 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     ],
   ],
 
+  plugins: [
+    [
+      "docusaurus-plugin-remote-content",
+      {
+        sourceBaseUrl: "https://raw.githubusercontent.com/jackwright-version1/SSGTest/main",
+        documents: ["DocFromRepo"],
+        docsIntegration: true,
+      },
+    ],
+  ],
+  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'DAPx',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -52,7 +83,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -69,7 +100,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Docs',
                 to: '/docs/intro',
               },
             ],

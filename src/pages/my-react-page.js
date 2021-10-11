@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 
 const axios = require('axios');
 
-axios.get('https://raw.githubusercontent.com/jackwright-version1/StaticSiteGenerator/master/*.md')
+axios.get('https://raw.githubusercontent.com/jackwright-version1/StaticSiteGenerator/master/RREADME.md')
   .then(function (response) {
     // handle success
     console.log(response);
