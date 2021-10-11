@@ -58,7 +58,7 @@ exec('"./docs/script.sh"', (error, stdout, stderr) => {
     ],
   ],
 
-  plugins: [
+  /*plugins: [
     [
       "docusaurus-plugin-remote-content",
       {
@@ -68,7 +68,7 @@ exec('"./docs/script.sh"', (error, stdout, stderr) => {
       },
     ],
   ],
-  
+  */
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
