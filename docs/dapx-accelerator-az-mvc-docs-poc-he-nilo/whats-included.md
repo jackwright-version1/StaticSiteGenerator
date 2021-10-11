@@ -1,0 +1,55 @@
+# What’s Included?
+| Item | Sub Item | Status |
+|---|---|---|
+| Documentation              |Developer Guides (READMEs)                                                                                                      |<font color="green">**Done**</font>|
+|                            |Design documents including Architecture diagrams                                                                                |<font color="orange">**In Progress**</font>|
+|                            |Test Strategy                                                                                                                   |<font color="green">**Done**</font>|
+|                            |CI/CD Strategy                                                                                                                  |<font color="green">**Done**</font>|
+|                            |Deployment Guides                                                                                                               |<font color="green">**Done**</font>|
+|                            |Extensibility Guides (READMEs)  				                                                                                  |<font color="green">**Done**</font>|
+|                            |Test Guides                                                                                                                     |<font color="orange">**In Progress**</font>|
+| Starter for ten codebase   |.Net Core MVC application                                                                                                       |<font color="green">**Done**</font>|
+|                            |Deployed to Azure App Service                                                                                                   |<font color="green">**Done**</font>|
+|                            |Table Storage Backend for storing data			                                                                              |<font color="green">**Done**</font>|
+|                            |AA compliant(WCAG 2.1) MVC forms									                                                              |<font color="green">**Done**</font>|
+|                            |AppInsights integration and logging code examples                                                                               |<font color="green">**Done**</font>|
+|                            |Keyvault integration								                                                                              |<font color="green">**Done**</font>|
+|                            |AAD integration 			                                                                                                      |<font color="green">**Done**</font>|
+|Infrastructure as Code (IAC)|Azure resource provisioning via Terraform                                                                                       |<font color="green">**Done**</font>|
+|                            |Azure DevOps YAML pipelines                                                                                                     |<font color="green">**Done**</font>|
+|                            |Multiple environment creation (dev, sit, uat, prod)                                                                             |<font color="green">**Done**</font>|
+|                            |AppService (with deployment slots)                                                                                              |<font color="green">**Done**</font>|
+|                            |Keyvault setup                                                                                                                  |<font color="green">**Done**</font>|
+|                            |Azure Monitor setup                                                                                                             |<font color="green">**Done**</font>|
+|                            |Sample Azure Alerts                                                                                                             |<font color="green">**Done**</font>|
+|                            |Table storage                                                                                                                   |<font color="green">**Done**</font>|
+|                            |Sample resource tagging                                                                                                         |<font color="green">**Done**</font>|
+|DevOps (CI/CD)              |Default branch policies and pull request quality gates                                                                          |<font color="green">**Done**</font>|
+|                            |Build/Release pipeline creation via YAML                                                                                        |<font color="green">**Done**</font>|
+|                            |CI/CD strategy implemented and enforced                                                                                         |<font color="green">**Done**</font>|
+|                            |Build/Release automation                                                                                                        |<font color="green">**Done**</font>|
+|                            |Static code quality analysis via SonarCloud integration                                                                         |<font color="green">**Done**</font>|
+|                            |Code coverage quality gate added				                                                                                  |<font color="green">**Done**</font>|
+|DevSecOps                   |Dependency checks via OWASP DC/DT                                                                            					  |<font color="green">**Done**</font>|
+|                            |Static application security testing covering OWASP Top Ten                                                                      |<font color="green">**Done**</font>|
+|Testing                     |End to End Testing using Specflow & C# integrated into CI/CD pipelines                                                          |<font color="green">**Done**</font>|
+|                            |Penetration Testing using OWASP Zap                                                                                             |<font color="green">**Done**</font>|
+|                            |Accessibility Testing using Google Lighthouse                                                                                   |<font color="green">**Done**</font>|
+|NFRS (Capacity and Concurrency)|Blue/Green deployments to be configured via pipelines/slots                                                                  |<font color="green">**Done**</font>|
+|                               |Latency: Appropriate Azure Services and SKU set and configurable                                                             |<font color="green">**Done**</font>|
+|                               |Accessible web pages                                                                                                         |<font color="green">**Done**</font>|
+|NFRS (Robustness & Reliability)|Efficient error handling examples                                                                                            |<font color="green">**Done**</font>|
+|NFRs (Maintainability)         |Industry standard technology used                                                                                            |<font color="green">**Done**</font>|
+|                               |Upgrades & Patching: Automation via DevOps                                                                                   |<font color="green">**Done**</font>|
+|NFRs (Recoverability)          |Enhance Data Protection 				                                                                                      |<font color="green">**Done**</font>|
+|NFRs (Security)                |AAD integration (Manual setup)                                                                                               |<font color="green">**Done**</font>|
+|                               |Keyvault provisioning for storage of secrets                                                                                 |<font color="green">**Done**</font>|
+|NFRs (Data)                    |Support for large volumes of data via appropriate services and patterns                                                      |<font color="green">**Done**</font>|
+|                               |Data Encryption (Built in)                                                                                                   |<font color="green">**Done**</font>|
+|NFRs (Monitoring)              |Auditing & Logging both from application and Azure perspective                                                               |<font color="green">**Done**</font>|
+|                               |Sample Azure Alerts setup for failures                                                                                       |<font color="green">**Done**</font>|
+|NFRs (Legal & Regulatory)      |WCAG 2.1 AA compliant sample web page included                                                                               |<font color="green">**Done**</font>|
+|NFRs (Service Design)          |Enhanceability: DAPx reference architecture to ensure adherence                                                              |<font color="green">**Done**</font>|
+|                               |Portability: DAPx best practice design applied but limited to Azure                                                          |<font color="green">**Done**</font>|
+|                               |Idempotency: DAPx to define standard patterns to accomodate                                                                  |<font color="green">**Done**</font>|
+     
