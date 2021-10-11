@@ -7,7 +7,7 @@ const axios = require('axios');
 
 const { exec } = require("child_process");
 
-exec('"./docs/script.sh"', (error, stdout, stderr) => {
+/*exec('"./docs/script.sh"', (error, stdout, stderr) => {
     if (error) {
         console.log(`error: ${error.message}`);
         return;
@@ -18,7 +18,7 @@ exec('"./docs/script.sh"', (error, stdout, stderr) => {
     }
     console.log(`stdout: ${stdout}`);
 });
-
+*/
 
 
 // With JSDoc @type annotations, IDEs can provide config autocompletion
